@@ -1,0 +1,46 @@
+<html>
+<title>Movie</title>
+<head>
+<link rel="stylesheet" href="css.css" type="text/css" />
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script>
+function fhn()
+{
+var x=document.getElementById('txt1').value;
+if(x=="kabir singh")
+{
+document.getElementById('q1').href="https://www.imdb.com/title/tt8983202/";
+}
+if(x=="avengers end game")
+{
+document.getElementById('q1').href="https://www.imdb.com/title/tt4154796/";
+}
+if(x=="baahubali 2")
+{
+document.getElementById('q1').href="https://www.imdb.com/title/tt4849438/";
+}
+if(x=="avengers infinity war")
+{
+document.getElementById('q1').href="https://www.imdb.com/title/tt4154756/";
+}
+if(x=="bharath")
+{
+document.getElementById('q1').href="https://www.imdb.com/title/tt7721800/";
+}
+}
+</script>
+</head>
+<body>
+<div class="headerx">
+</div>
+<div class="header">
+<h1>MOVIE RATING</h1>
+</div>
+<div class="search-box">
+<input class="search-txt" type="text" id="txt1" name="" placeholder="Search a Movie name">
+<a class="search-btn" href="#" id="q1" onclick="fhn()">
+<i class="fas fa-search"></i>
+</a> 
+</div>
+</body>
+</html>

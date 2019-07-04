@@ -1,0 +1,97 @@
+body
+{
+	background:linear-gradient(to bottom right,to bottom left,white,#bcbdc4);
+	background-image:url("Background4.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+.headerx
+{
+	position:fixed;
+	width:100%;
+	height:150px;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+	-webkit-box-shadow:0 3px 8px rgba(0, 0, 0, .25);
+}
+.header
+{
+	position:fixed;
+	width:100%;
+	height:150px;
+	background:red;
+	top:0;
+	left:0;
+	color:white;
+	z-index:7;
+	font-family:verdana;
+}
+h1
+{
+	top:30px;
+	left:30px;
+	position:relative;
+	color:white;
+	font-size:50px;
+	font-family:verdana;
+}
+.search-box
+{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	background:#2f3640;
+	height:40px;
+	border-radius:40px;
+	padding:10px;
+}
+.search-box:hover > .search-txt
+{
+	width:240px;
+	padding:0 6px;
+}
+.search-box:hover > .search-btn
+{
+	background:white;
+	color:black;
+}
+.search-btn
+{
+	color:white;
+	float:right;
+	width:40px;
+	height:40px;
+	border-radius:50%;
+	background:#2f3640;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.search-txt
+{
+	border:none;
+	background:none;
+	outline:none;
+	float:left;
+	padding:0;
+	color:white;
+	font-size:16px;
+	line-height:40px;
+	width:0px;
+	transition:0.4s;
+}
+
+
+
+
+
+
+
+
+
+
+
